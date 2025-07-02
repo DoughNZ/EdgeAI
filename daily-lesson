@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Edge Daily Lesson",
+  "type": "object",
+  "properties": {
+    "html": {
+      "type": "string",
+      "description": "The full HTML lesson to send via email."
+    }
+  },
+  "required": ["html"]
+}
